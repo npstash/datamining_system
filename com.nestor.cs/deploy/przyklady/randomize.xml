@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="2" location="340:66">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="58:16">
+    <argument>
+arff//weather.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.RandomizeValues" id="3" location="421:202">
+    <argument linkID="2"/>
+    <argument>
+100.0
+    </argument>
+    <argument>
+0.1
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.DatasetView" id="11" location="52:193">
+    <argument linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.DatasetView" id="4" location="251:372">
+    <argument linkID="3"/>
+  </element>
+</sedDocument>

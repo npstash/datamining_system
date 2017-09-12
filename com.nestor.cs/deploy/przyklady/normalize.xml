@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.demo.Normalization" id="2" location="384:305">
+    <argument linkID="9"/>
+    <argument>
+0.0
+    </argument>
+    <argument>
+1.0
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.RemoveAttributes" id="9" location="171:271">
+    <argument linkID="0"/>
+    <argument linkID="8"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="224:22">
+    <argument>
+arff//weather.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.DatasetView" id="10" location="149:416">
+    <argument linkID="9"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.DatasetView" id="1" location="395:80">
+    <argument linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.SelectAttributesFromText" id="8" location="29:140">
+    <argument linkID="0"/>
+    <argument>
+0, 3, 4
+    </argument>
+  </element>
+</sedDocument>

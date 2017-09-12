@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.ProportionalEqualFrequencyDiscretizer" id="20" location="273:120">
+    <argument linkID="40"/>
+    <argument discarded=""/>
+    <argument discarded=""/>
+    <argument>
+3
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="3" location="16:325">
+    <argument linkID="1"/>
+    <argument linkID="36"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="7" location="274:321">
+    <argument face="0" linkID="3"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.AttributeBinarizer" id="6" location="15:113">
+    <argument linkID="20"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.GuessMissingValues" id="40" location="261:19">
+    <argument linkID="0"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.cpp.JEP_Cpp" id="36" location="11:207">
+    <argument linkID="1"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+    <argument>
+0.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="1" location="273:210">
+    <argument linkID="6"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="14:19">
+    <argument discarded=""/>
+    <argument>
+false
+    </argument>
+  </element>
+</sedDocument>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="30:184">
+    <argument>
+arff//iris.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.RandomizeValues" id="171" location="307:18">
+    <argument linkID="1"/>
+    <argument>
+100.0
+    </argument>
+    <argument>
+0.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TreeView" id="249" location="41:458">
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="24" location="306:156">
+    <argument linkID="171"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.fuzzy.ZeidlerFuzzy" id="197" location="105:311">
+    <argument linkID="6"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TreeView" id="247" location="531:451">
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="12" location="342:456">
+    <argument discarded=""/>
+    <argument linkID="6"/>
+    <argument>
+13
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="1" location="38:24">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="6" location="480:290">
+    <argument linkID="24"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument linkID="26"/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="126" location="410:604">
+    <argument face="0" linkID="12"/>
+    <argument>
+SPRINT
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="246" location="98:606">
+    <argument face="0" linkID="245"/>
+    <argument>
+Fuzzy
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="245" location="224:450">
+    <argument discarded=""/>
+    <argument face="0" linkID="197"/>
+    <argument>
+13
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_mEstimate" id="26" location="562:100">
+    <argument discarded=""/>
+    <argument>
+10.0
+    </argument>
+  </element>
+</sedDocument>

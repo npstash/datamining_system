@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="24:137">
+    <argument>
+arff//labor.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="149" location="176:183">
+    <argument linkID="148"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="6" location="418:242">
+    <argument linkID="9"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument linkID="26"/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="13" location="260:426">
+    <argument discarded=""/>
+    <argument linkID="7"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="12" location="418:422">
+    <argument discarded=""/>
+    <argument linkID="6"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="1" location="39:8">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="11" location="61:418">
+    <argument discarded=""/>
+    <argument linkID="124"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="17" location="63:558">
+    <argument face="0" linkID="11"/>
+    <argument>
+DeEP
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.jep.DeEPClassifier" id="124" location="88:277">
+    <argument linkID="149"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument>
+12.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.bayes.NaiveBayes" id="7" location="280:282">
+    <argument linkID="9"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument>
+2
+    </argument>
+    <argument>
+10.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_mEstimate" id="26" location="634:330">
+    <argument discarded=""/>
+    <argument>
+20.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="19" location="252:557">
+    <argument face="0" linkID="13"/>
+    <argument>
+NB
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.AttributeBinarizer" id="148" location="203:78">
+    <argument linkID="23"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="18" location="409:552">
+    <argument face="0" linkID="12"/>
+    <argument>
+SPRINT
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="9" location="330:131">
+    <argument linkID="23"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.GuessMissingValues" id="23" location="441:5">
+    <argument linkID="1"/>
+    <argument discarded=""/>
+  </element>
+</sedDocument>

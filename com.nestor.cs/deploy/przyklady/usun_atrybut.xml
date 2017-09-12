@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="32:22">
+    <argument discarded=""/>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSink" id="1" location="337:8">
+    <argument discarded=""/>
+    <argument linkID="3"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.SelectAttributes" id="2" location="56:185">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.RemoveAttributes" id="3" location="322:202">
+    <argument linkID="0"/>
+    <argument linkID="2"/>
+  </element>
+</sedDocument>

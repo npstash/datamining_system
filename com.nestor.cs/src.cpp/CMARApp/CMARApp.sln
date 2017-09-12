@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cJEP", "..\cJEP\cJEP.vcproj", "{8C8F62A4-ED8D-4CFD-8C73-E4DFF38114D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cDeEP", "..\cDeEP\cDeEP.vcproj", "{E0A278C0-7483-4D41-9359-7620877BE617}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cCMAR", "..\cCMAR\cCMAR.vcproj", "{5143EB48-A1BB-4321-BB19-1F3E850D87D1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8C8F62A4-ED8D-4CFD-8C73-E4DFF38114D5}.Debug.ActiveCfg = Debug|Win32
+		{8C8F62A4-ED8D-4CFD-8C73-E4DFF38114D5}.Debug.Build.0 = Debug|Win32
+		{8C8F62A4-ED8D-4CFD-8C73-E4DFF38114D5}.Release.ActiveCfg = Release|Win32
+		{8C8F62A4-ED8D-4CFD-8C73-E4DFF38114D5}.Release.Build.0 = Release|Win32
+		{E0A278C0-7483-4D41-9359-7620877BE617}.Debug.ActiveCfg = Debug|Win32
+		{E0A278C0-7483-4D41-9359-7620877BE617}.Debug.Build.0 = Debug|Win32
+		{E0A278C0-7483-4D41-9359-7620877BE617}.Release.ActiveCfg = Release|Win32
+		{E0A278C0-7483-4D41-9359-7620877BE617}.Release.Build.0 = Release|Win32
+		{5143EB48-A1BB-4321-BB19-1F3E850D87D1}.Debug.ActiveCfg = Debug|Win32
+		{5143EB48-A1BB-4321-BB19-1F3E850D87D1}.Debug.Build.0 = Debug|Win32
+		{5143EB48-A1BB-4321-BB19-1F3E850D87D1}.Release.ActiveCfg = Release|Win32
+		{5143EB48-A1BB-4321-BB19-1F3E850D87D1}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+	<node>
+		<node actionclass="com.nestor.cs.ui.actions.NewDiagram"/>
+		<node actionclass="com.nestor.cs.ui.actions.LoadDocument"/>
+		<node actionclass="com.nestor.cs.ui.actions.SaveDocument"/>
+		<node actionclass="com.nestor.cs.ui.actions.SaveAsDocument"/>
+	</node>
+	<node>
+		<node actionclass="com.nestor.cs.ui.actions.InitFlow"/>
+		<node actionclass="com.nestor.cs.ui.actions.StartFlow"/>
+		<node actionclass="com.nestor.cs.ui.actions.PauseFlow"/>
+		<node actionclass="com.nestor.cs.ui.actions.StopFlow"/>
+	</node>
+</node>

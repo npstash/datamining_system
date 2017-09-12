@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.EqualWidthDiscretizer" id="6" location="319:246">
+    <argument linkID="1"/>
+    <argument discarded=""/>
+    <argument discarded=""/>
+    <argument>
+10
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="45:22">
+    <argument>
+arff//waveform.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="7" location="384:359">
+    <argument linkID="6"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="4" location="311:18">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.demo.Timer" id="3" location="81:496">
+    <argument linkID="2"/>
+    <argument discarded=""/>
+    <argument>
+Bez dyskretyzacji
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="5" location="29:117">
+    <argument linkID="1"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="2" location="134:348">
+    <argument linkID="5"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+    <argument>
+false
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.demo.Timer" id="9" location="321:605">
+    <argument linkID="8"/>
+    <argument discarded=""/>
+    <argument>
+Dyskretyzacja
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="8" location="318:487">
+    <argument linkID="7"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.GuessMissingValues" id="1" location="463:128">
+    <argument linkID="4"/>
+    <argument discarded=""/>
+  </element>
+</sedDocument>

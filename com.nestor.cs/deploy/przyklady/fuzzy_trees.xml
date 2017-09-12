@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.visual.SelectAttributesFromText" id="64" location="42:247">
+    <argument linkID="0"/>
+    <argument>
+0,3,4,5,6,8,9,11,12
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.DatasetSplit" id="2" location="308:221">
+    <argument linkID="66"/>
+    <argument>
+95.0
+    </argument>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.RemoveAttributes" id="65" location="197:75">
+    <argument linkID="0"/>
+    <argument linkID="64"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="7" location="110:313">
+    <argument face="0" linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="3" location="390:-28">
+    <argument linkID="65"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TreeView" id="92" location="149:789">
+    <argument linkID="42"/>
+    <argument>
+false
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="20:22">
+    <argument>
+arff//crx.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="42" location="133:496">
+    <argument linkID="8"/>
+    <argument linkID="7"/>
+    <argument>
+true
+    </argument>
+    <argument linkID="44"/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.GuessMissingValues" id="66" location="479:109">
+    <argument linkID="3"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.fuzzy.ZeidlerFuzzy" id="41" location="460:508">
+    <argument linkID="42"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_mEstimate" id="44" location="13:626">
+    <argument discarded=""/>
+    <argument>
+20.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="8" location="496:347">
+    <argument face="1" linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TreeView" id="43" location="506:727">
+    <argument face="0" linkID="41"/>
+    <argument>
+false
+    </argument>
+    <argument discarded=""/>
+  </element>
+</sedDocument>

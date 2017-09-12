@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+	<node nameKey="Elements.xml.dataSources">
+		<node nameKey="Elements.xml.arffSource" class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" icon="/com/nestor/cs/ui/tasks/images/arffdsin.gif"/>
+		<node nameKey="Elements.xml.arffSink" class="com.nestor.cs.tasks.impl.datasources.ARFFDataSink" icon="/com/nestor/cs/ui/tasks/images/arffdsout.gif"/>
+		<node nameKey="Elements.xml.rulesetSaver" class="com.nestor.cs.tasks.impl.datasources.RuleSetSaver" icon="/com/nestor/cs/ui/tasks/images/rsout.gif"/>
+	</node>
+	<node nameKey="Elements.xml.datasets">
+		<node nameKey="Elements.xml.datasetcopy" class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" icon="/com/nestor/cs/ui/tasks/images/ds.gif"/>
+		<node nameKey="Elements.xml.datasetcopy2" class="com.nestor.cs.tasks.impl.dataset.ArrayListDataset" icon="/com/nestor/cs/ui/tasks/images/ds.gif"/>
+		<node nameKey="Elements.xml.datasetSplit" class="com.nestor.cs.tasks.impl.dataset.DatasetSplit" icon="/com/nestor/cs/ui/tasks/images/splitds.gif"/>
+	</node>
+	<node nameKey="Elements.xml.classifiers">
+		<node nameKey="Elements.xml.JEPClassifier" class="com.nestor.cs.tasks.impl.clasf.jep.JEPClassifier" icon="/com/nestor/cs/ui/tasks/images/jep.gif"/>
+		<node nameKey="Elements.xml.DeEPClassifier" class="com.nestor.cs.tasks.impl.clasf.jep.DeEPClassifier" icon="/com/nestor/cs/ui/tasks/images/deep.gif"/>
+		<node nameKey="Elements.xml.CBAClassifier" class="com.nestor.cs.tasks.impl.clasf.cba.CBA" icon="/com/nestor/cs/ui/tasks/images/assoc.gif"/>
+		<node nameKey="Elements.xml.naiveBayes" class="com.nestor.cs.tasks.impl.clasf.bayes.NaiveBayes" icon="/com/nestor/cs/ui/tasks/images/bayes.gif"/>
+		<node nameKey="Elements.xml.SPRINT" class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" icon="/com/nestor/cs/ui/tasks/images/sprint.gif"/>
+		<node nameKey="Elements.xml.Zeidler" class="com.nestor.cs.tasks.impl.clasf.tree.fuzzy.ZeidlerFuzzy" icon="/com/nestor/cs/ui/tasks/images/sprint.gif"/>
+		<node nameKey="Elements.xml.Zero" class="com.nestor.cs.tasks.impl.clasf.ZeroRule" icon="/com/nestor/cs/ui/tasks/images/zeror.gif"/>
+		<node nameKey="Elements.xml.prunings">
+			<node nameKey="Elements.xml.pruneMinSupp" class="com.nestor.cs.tasks.impl.clasf.tree.prune.MinimumSupportPruning" icon="/com/nestor/cs/ui/tasks/images/prune.gif"/>
+			<node nameKey="Elements.xml.med_laplace" class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_Laplace" icon="/com/nestor/cs/ui/tasks/images/prune.gif"/>
+			<node nameKey="Elements.xml.med_mEstimate" class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_mEstimate" icon="/com/nestor/cs/ui/tasks/images/prune.gif"/>
+			<node nameKey="Elements.xml.pep" class="com.nestor.cs.tasks.impl.clasf.tree.prune.PessimisticErrorPruning" icon="/com/nestor/cs/ui/tasks/images/prune.gif"/>
+		</node>
+		<node nameKey="Elements.xml.calcAccurancy" class="com.nestor.cs.tasks.impl.clasf.CalculateAccurancy" icon="/com/nestor/cs/ui/tasks/images/acc.gif"/>
+		<node nameKey="Elements.xml.10fold" class="com.nestor.cs.tasks.impl.clasf.CrossValidation" icon="/com/nestor/cs/ui/tasks/images/acc.gif"/>
+		<node nameKey="Elements.xml.CPP">
+			<node nameKey="Elements.xml.JEP_Cpp" class="com.nestor.cs.tasks.impl.clasf.cpp.JEP_Cpp" icon="/com/nestor/cs/ui/tasks/images/jepcpp.gif"/>
+			<node nameKey="Elements.xml.DeEP_Cpp" class="com.nestor.cs.tasks.impl.clasf.cpp.DeEP_Cpp" icon="/com/nestor/cs/ui/tasks/images/deepcpp.gif"/>
+			<node nameKey="Elements.xml.CMAR_Cpp" class="com.nestor.cs.tasks.impl.clasf.cpp.CMAR_Cpp" icon="/com/nestor/cs/ui/tasks/images/cmarcpp.gif"/>
+		</node>
+	</node>
+	<node nameKey="Elements.xml.discretization">
+		<node nameKey="Elements.xml.discrEF" class="com.nestor.cs.tasks.impl.preprocess.discr.EqualFrequencyDiscretizer" icon="/com/nestor/cs/ui/tasks/images/discr.gif"/>
+		<node nameKey="Elements.xml.discrEW" class="com.nestor.cs.tasks.impl.preprocess.discr.EqualWidthDiscretizer" icon="/com/nestor/cs/ui/tasks/images/discr.gif"/>
+		<node nameKey="Elements.xml.discrPEF" class="com.nestor.cs.tasks.impl.preprocess.discr.ProportionalEqualFrequencyDiscretizer" icon="/com/nestor/cs/ui/tasks/images/discr.gif"/>
+		<node nameKey="Elements.xml.discrSplit" class="com.nestor.cs.tasks.impl.preprocess.discr.SplittingDiscretizer" icon="/com/nestor/cs/ui/tasks/images/discr.gif"/>
+		<node nameKey="Elements.xml.discrMerge" class="com.nestor.cs.tasks.impl.preprocess.discr.MergingDiscretizer" icon="/com/nestor/cs/ui/tasks/images/discr.gif"/>
+		<node nameKey="Elements.xml.discrFuzzyTrapez" class="com.nestor.cs.tasks.impl.preprocess.discr.TrapezoidalFuzzyRediscretizer" icon="/com/nestor/cs/ui/tasks/images/fuzzydiscr.gif"/>
+		<node nameKey="Elements.xml.crits">
+			<node nameKey="Elements.xml.critChi2" class="com.nestor.cs.data.impl.criteria.ChiSquare" icon="/com/nestor/cs/ui/tasks/images/splitcrit.gif"/>
+			<node nameKey="Elements.xml.critIG" class="com.nestor.cs.data.impl.criteria.InformationGain" icon="/com/nestor/cs/ui/tasks/images/splitcrit.gif"/>
+			<node nameKey="Elements.xml.critIGR" class="com.nestor.cs.data.impl.criteria.InformationGainRatio" icon="/com/nestor/cs/ui/tasks/images/splitcrit.gif"/>
+			<node nameKey="Elements.xml.critGI" class="com.nestor.cs.data.impl.criteria.GiniIndex" icon="/com/nestor/cs/ui/tasks/images/splitcrit.gif"/>
+		</node>
+	</node>
+	<node nameKey="Elements.xml.attributes">
+		<node nameKey="Elements.xml.selectAttrs" class="com.nestor.cs.tasks.impl.visual.SelectAttributes" icon="/com/nestor/cs/ui/tasks/images/show.gif"/>
+		<node nameKey="Elements.xml.binarize" class="com.nestor.cs.tasks.impl.preprocess.AttributeBinarizer" icon="/com/nestor/cs/ui/tasks/images/bin.gif"/>
+		<node nameKey="Elements.xml.guessMissing" class="com.nestor.cs.tasks.impl.preprocess.GuessMissingValues" icon="/com/nestor/cs/ui/tasks/images/guessmissing.gif"/>
+		<node nameKey="Elements.xml.removeMissing" class="com.nestor.cs.tasks.impl.preprocess.RemoveMissingValues" icon="/com/nestor/cs/ui/tasks/images/removemissing.gif"/>
+		<node nameKey="Elements.xml.replaceMissing" class="com.nestor.cs.tasks.impl.preprocess.ReplaceMissingValues" icon="/com/nestor/cs/ui/tasks/images/replacemissing.gif"/>
+		<node nameKey="Elements.xml.randomizeValues" class="com.nestor.cs.tasks.impl.preprocess.RandomizeValues" icon="/com/nestor/cs/ui/tasks/images/randomize.gif"/>
+		<node nameKey="Elements.xml.removeAttributes" class="com.nestor.cs.tasks.impl.preprocess.RemoveAttributes" icon="/com/nestor/cs/ui/tasks/images/removeattr.gif"/>
+		<node nameKey="Elements.xml.selectClass" class="com.nestor.cs.tasks.impl.preprocess.SelectNewClass" icon="/com/nestor/cs/ui/tasks/images/changeclass.gif"/>
+		<node nameKey="Elements.xml.selectAttributesText" class="com.nestor.cs.tasks.impl.visual.SelectAttributesFromText" icon="/com/nestor/cs/ui/tasks/images/select.gif"/>
+		<node nameKey="Elements.xml.normalization" class="com.nestor.cs.demo.Normalization"/>
+	</node>
+	<node nameKey="Elements.xml.visuals">
+		<node nameKey="Elements.xml.showNominalAttributes" class="com.nestor.cs.tasks.impl.visual.ValueDistribution" icon="/com/nestor/cs/ui/tasks/images/showdistr.gif"/>
+		<node nameKey="Elements.xml.showDataset" class="com.nestor.cs.tasks.impl.visual.DatasetView" icon="/com/nestor/cs/ui/tasks/images/showds.gif"/>
+		<node nameKey="Elements.xml.showBinaryDataset" class="com.nestor.cs.demo.BinaryDatasetView" icon="/com/nestor/cs/ui/tasks/images/showds.gif"/>
+		<node nameKey="Elements.xml.editDatset" class="com.nestor.cs.tasks.impl.visual.DatasetEdit" icon="/com/nestor/cs/ui/tasks/images/showds.gif"/>
+		<node nameKey="Elements.xml.showRuleset" class="com.nestor.cs.tasks.impl.visual.RuleSetView" icon="/com/nestor/cs/ui/tasks/images/showrs.gif"/>
+		<node nameKey="Elements.xml.showTree" class="com.nestor.cs.tasks.impl.visual.TreeView" icon="/com/nestor/cs/ui/tasks/images/showtree.gif"/>
+		<node nameKey="Elements.xml.showText" class="com.nestor.cs.tasks.impl.visual.TextView" icon="/com/nestor/cs/ui/tasks/images/showtext.gif"/>
+		<node nameKey="Elements.xml.showLearningContext" class="com.nestor.cs.tasks.impl.visual.LearningContextView" icon="/com/nestor/cs/ui/tasks/images/show.gif"/>
+		<node nameKey="Elements.xml.Timer" class="com.nestor.cs.demo.Timer" icon="/com/nestor/cs/ui/tasks/images/timer2.gif"/>
+	</node>
+</node>

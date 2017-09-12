@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+	<node name="Plik">
+		<node actionclass="com.nestor.cs.ui.actions.NewDiagram" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.LoadDocument" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.SaveDocument" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.SaveAsDocument" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.ExitSystem" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+	</node>
+	<node name="Widok">
+		<node actionclass="com.nestor.cs.ui.actions.ShowProperties" itemclass="com.nestor.cs.util.swing.ExtJCheckBoxMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.ShowElements" itemclass="com.nestor.cs.util.swing.ExtJCheckBoxMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.ShowMessages" itemclass="com.nestor.cs.util.swing.ExtJCheckBoxMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.ShowProcInfo" itemclass="com.nestor.cs.util.swing.ExtJCheckBoxMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.ShowToolbar" itemclass="com.nestor.cs.util.swing.ExtJCheckBoxMenuItem"/>
+	</node>
+	<node name="Diagarm">
+		<node actionclass="com.nestor.cs.ui.actions.InitFlow" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.StartFlow" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.PauseFlow" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+		<node actionclass="com.nestor.cs.ui.actions.StopFlow" itemclass="com.nestor.cs.util.swing.ExtJMenuItem"/>
+	</node>
+</node>

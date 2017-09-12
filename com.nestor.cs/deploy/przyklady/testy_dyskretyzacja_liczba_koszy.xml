@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="21" location="360:853">
+    <argument face="0" linkID="15"/>
+    <argument>
+CMAR
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="6" location="746:550">
+    <argument linkID="24"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument linkID="26"/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.AttributeBinarizer" id="8" location="196:245">
+    <argument linkID="23"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.cba.CBA" id="4" location="213:537">
+    <argument linkID="9"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+    <argument>
+10.0
+    </argument>
+    <argument>
+50.0
+    </argument>
+    <argument>
+false
+    </argument>
+    <argument>
+true
+    </argument>
+    <argument>
+250000
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="20" location="208:844">
+    <argument face="0" linkID="14"/>
+    <argument>
+CBA
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="11" location="44:686">
+    <argument discarded=""/>
+    <argument linkID="3"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="1" location="104:25">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="12" location="756:692">
+    <argument discarded=""/>
+    <argument linkID="6"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.cpp.CMAR_Cpp" id="5" location="341:542">
+    <argument linkID="9"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument>
+2.0
+    </argument>
+    <argument>
+50.0
+    </argument>
+    <argument>
+5
+    </argument>
+    <argument>
+3.84
+    </argument>
+    <argument>
+20.0
+    </argument>
+    <argument>
+false
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="19" location="637:855">
+    <argument face="0" linkID="13"/>
+    <argument>
+NB
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.EqualFrequencyDiscretizer" id="124" location="339:41">
+    <argument linkID="1"/>
+    <argument discarded=""/>
+    <argument discarded=""/>
+    <argument>
+4
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="18" location="756:851">
+    <argument face="0" linkID="12"/>
+    <argument>
+SPRINT
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.cpp.DeEP_Cpp" id="3" location="59:528">
+    <argument linkID="9"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="13" location="611:683">
+    <argument discarded=""/>
+    <argument linkID="7"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="14" location="194:693">
+    <argument discarded=""/>
+    <argument linkID="4"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="24" location="663:386">
+    <argument linkID="23"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="30:184">
+    <argument>
+arff//glass.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="15" location="352:700">
+    <argument discarded=""/>
+    <argument linkID="5"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_mEstimate" id="26" location="978:632">
+    <argument discarded=""/>
+    <argument>
+20.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="17" location="66:850">
+    <argument face="0" linkID="11"/>
+    <argument>
+DeEP
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="9" location="339:337">
+    <argument linkID="8"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.GuessMissingValues" id="23" location="458:179">
+    <argument linkID="124"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.bayes.NaiveBayes" id="7" location="588:549">
+    <argument linkID="24"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+    <argument>
+2
+    </argument>
+    <argument>
+10.0
+    </argument>
+  </element>
+</sedDocument>

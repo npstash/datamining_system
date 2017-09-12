@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.clasf.ZeroRule" id="47" location="20:191">
+    <argument linkID="1"/>
+    <argument discarded=""/>
+    <argument>
+true
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="21:29">
+    <argument discarded=""/>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="1" location="312:168">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="7" location="294:340">
+    <argument face="0" linkID="3"/>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CrossValidation" id="3" location="19:342">
+    <argument linkID="1"/>
+    <argument linkID="47"/>
+    <argument>
+10
+    </argument>
+    <argument>
+true
+    </argument>
+  </element>
+</sedDocument>

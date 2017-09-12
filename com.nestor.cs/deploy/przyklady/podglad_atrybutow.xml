@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.ProportionalEqualFrequencyDiscretizer" id="1" location="111:294">
+    <argument linkID="2"/>
+    <argument discarded=""/>
+    <argument discarded=""/>
+    <argument>
+7
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.ValueDistribution" id="0" location="406:162">
+    <argument linkID="1"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="2" location="116:72">
+    <argument>
+arff//labor.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+</sedDocument>

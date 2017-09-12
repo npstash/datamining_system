@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="1" location="124:846">
+    <argument face="0" linkID="6"/>
+    <argument>
+SPRINT
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.SPRINT" id="42" location="133:496">
+    <argument linkID="8"/>
+    <argument linkID="7"/>
+    <argument>
+true
+    </argument>
+    <argument linkID="44"/>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.RandomizeValues" id="92" location="515:132">
+    <argument linkID="3"/>
+    <argument>
+100.0
+    </argument>
+    <argument>
+33.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="20:22">
+    <argument>
+arff//crx.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="8" location="496:347">
+    <argument face="1" linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="14" location="633:678">
+    <argument face="0" linkID="13"/>
+    <argument>
+Fuzzy
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TreeView" id="43" location="352:817">
+    <argument discarded=""/>
+    <argument>
+false
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="7" location="110:313">
+    <argument face="0" linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CalculateAccurancy" id="6" location="117:659">
+    <argument linkID="8"/>
+    <argument linkID="42"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="3" location="266:46">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.prune.MED_mEstimate" id="44" location="12:625">
+    <argument discarded=""/>
+    <argument>
+100.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.DatasetSplit" id="2" location="307:220">
+    <argument linkID="92"/>
+    <argument>
+20.0
+    </argument>
+    <argument>
+true
+    </argument>
+    <argument discarded=""/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.tree.fuzzy.ZeidlerFuzzy" id="41" location="409:626">
+    <argument linkID="42"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CalculateAccurancy" id="13" location="610:496">
+    <argument linkID="8"/>
+    <argument face="0" linkID="41"/>
+  </element>
+</sedDocument>

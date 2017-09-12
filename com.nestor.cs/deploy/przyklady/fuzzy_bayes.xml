@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+
+<sedDocument version="0.2">
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="1" location="351:976">
+    <argument face="0" linkID="6"/>
+    <argument>
+EFD
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.DatasetSplit" id="2" location="305:212">
+    <argument linkID="3"/>
+    <argument>
+50.0
+    </argument>
+    <argument>
+true
+    </argument>
+    <argument>
+6
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CalculateAccurancy" id="6" location="350:772">
+    <argument linkID="5"/>
+    <argument linkID="4"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.TrapezoidalFuzzyRediscretizer" id="11" location="719:698">
+    <argument linkID="5"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="8" location="471:323">
+    <argument face="1" linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="3" location="304:25">
+    <argument linkID="0"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.visual.TextView" id="14" location="543:1132">
+    <argument face="0" linkID="13"/>
+    <argument>
+Fuzzy
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.bayes.NaiveBayes" id="4" location="140:632">
+    <argument linkID="5"/>
+    <argument linkID="9"/>
+    <argument>
+true
+    </argument>
+    <argument>
+0
+    </argument>
+    <argument>
+10.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.TrapezoidalFuzzyRediscretizer" id="10" location="524:693">
+    <argument linkID="9"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.EqualFrequencyDiscretizer" id="9" location="139:454">
+    <argument linkID="7"/>
+    <argument discarded=""/>
+    <argument discarded=""/>
+    <argument>
+4
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.preprocess.discr.EqualFrequencyDiscretizer" id="5" location="409:461">
+    <argument linkID="8"/>
+    <argument linkID="7"/>
+    <argument discarded=""/>
+    <argument>
+4
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.bayes.NaiveBayes" id="12" location="529:882">
+    <argument linkID="11"/>
+    <argument linkID="10"/>
+    <argument>
+true
+    </argument>
+    <argument>
+0
+    </argument>
+    <argument>
+10.0
+    </argument>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.dataset.ArrayReadOnlyDataset" id="7" location="140:319">
+    <argument face="0" linkID="2"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.clasf.CalculateAccurancy" id="13" location="717:988">
+    <argument linkID="11"/>
+    <argument linkID="12"/>
+  </element>
+  <element class="com.nestor.cs.tasks.impl.datasources.ARFFDataSource" id="0" location="19:23">
+    <argument>
+arff//ionosphere.arff
+    </argument>
+    <argument>
+false
+    </argument>
+  </element>
+</sedDocument>
